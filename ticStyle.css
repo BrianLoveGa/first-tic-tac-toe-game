@@ -1,0 +1,100 @@
+h1{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#modal {
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+
+#modal-textbox {
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+	line-height: 120%;
+}
+
+
+#modal-footer {
+	text-align: right;
+}
+
+.modal-buttons, .reset {
+	padding: 14px 18px;
+	background-color: #677996;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Arial';
+	cursor: pointer;
+}
+
+#close {
+	padding:20px;
+	font-size: 20px;
+}
+
+.container{ 
+    align-content: center;
+}
+
+.grid {
+    display: flex;                      
+    flex-wrap: wrap;                     
+    justify-content: space-around;
+    background-color: black;
+    padding:10px;
+    
+  }
+  .cell {
+    flex: 0 0 33%;                       
+    height: 100px;
+    width: 50px;
+    margin-bottom: 5px;
+    background-color: #999;
+  }
+
+.x {
+      background-color: red;
+
+  } 
+
+ .o {
+      background-color: blue;
+  }
+
+footer{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.under{
+    text-decoration-line: underline;
+}
+
+.whoseTurn {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color:white;
+
+    
+}

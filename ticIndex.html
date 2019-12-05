@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe game by BL</title>
+    <link rel="stylesheet" href="ticStyle.css">
+</head>
+<body>
+    <h1> So you wanna play Tic Tac Toe ?</h1>
+    <h2> You found the right spot</h2>
+    <button  class="modal-buttons" id="openModal">About the Game</button>
+  <div id="modal">
+    <div id="modal-textbox">
+        <h1>Learn to tic-tac-toe</h1>
+          <p>One must simply click in the grid to make a move.</p>
+          <p> An X move will return a red square. An O move will result in a blue square</p>
+          <p> The object is to get three in a row, three in a colum, or three diagonally to win</p>
+          <p>If all squares are clicked on (filled in red or blue) and there is not 3 in any way (row, column, diagonal) Then the game is a scratch - reset to play again</p> <button class="modal-buttons" id="close" href="#">Close</button>
+        </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <h2 class = "under"> Play Below </h2> <h2> Red goes first</h2>
+  <div class = "whoseTurn" id ="turn"> It's your turn now choose wisely young grasshopper.</div>
+
+
+  <hr>
+  <div class="grid" id="board">
+    <div id="one" class="cell"></div>
+    <div id="two"  class="cell"></div>
+    <div id="three" class="cell"></div>
+    <div id="four" class="cell"></div>
+    <div id="five" class="cell"></div>
+    <div id="six" class="cell"></div>
+    <div id="seven" class="cell"></div>
+    <div id="eight" class="cell"></div>
+    <div id="nine"  class="cell"></div>
+  </div>
+   
+    <br>
+    <hr>
+    <button class="reset"> click Here to clean the board and reset</button>
+    <hr>
+
+
+
+  <footer> made by: B Love _-_ for GA SEI remote fall '19</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="ticApp.js"></script>
+</body>
+</html>
